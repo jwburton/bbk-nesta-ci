@@ -1,0 +1,18 @@
+
+{
+  "admins":[
+    {
+      "username": "<username>",
+      "password": "<password>"
+    }
+  ],
+    "galaxy.meteor.com": 
+    {
+          "env": {
+              "MONGO_URL": "mongodb+srv://<username>:<password>@<clustername>.qnyew.mongodb.net/<databasename>",
+              "MONGO_OPLOG_URL": "mongodb+srv://oplogger:<password>oplog@<clustername>.qnyew.mongodb.net/local"
+        }
+    }
+  }
+  
+  
